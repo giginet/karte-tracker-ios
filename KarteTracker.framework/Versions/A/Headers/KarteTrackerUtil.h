@@ -15,7 +15,7 @@ void KarteTrackerLog(NSString *format, ...);
 void KarteTrackerExceptionHandler(NSException *exception);
 
 NSString * GetTrackerSerializeFilePath(NSString *filename);
-NSString * GetBundleID();
-NSString * GetDeviceName();
+NSString * GetBundleID(void);
+NSString * GetDeviceName(void);
 
 //#endif /* KarteTrackerUtil_h */
