@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.ios.deployment_target = '8.0'
-  s.vendored_frameworks = 'KarteTracker.embeddedframework'
+  s.vendored_frameworks = 'KarteTracker.embeddedframework/KarteTracker.framework'
   s.resources = 'KarteTracker.embeddedframework/Resources/KarteTrackerResources.bundle'
   s.compiler_flags = '-ObjC'
   s.requires_arc = true
